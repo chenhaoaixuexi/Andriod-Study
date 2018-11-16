@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE android.support.constraint.ConstraintLayout [<!ELEMENT android.support.constraint.ConstraintLayout (TextView)*><!ATTLIST android.support.constraint.ConstraintLayoutxmlns:android CDATA #REQUIREDxmlns:app CDATA #REQUIREDxmlns:tools CDATA #REQUIREDandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDtools:context CDATA #REQUIRED><!ELEMENT TextView (#PCDATA)><!ATTLIST TextViewandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDandroid:text CDATA #REQUIREDapp:layout_constraintBottom_toBottomOf CDATA #REQUIREDapp:layout_constraintLeft_toLeftOf CDATA #REQUIREDapp:layout_constraintRight_toRightOf CDATA #REQUIREDapp:layout_constraintTop_toTopOf CDATA #REQUIRED>]>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".chActivity">
 
+    <!--context fill up-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="this is my first app "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
