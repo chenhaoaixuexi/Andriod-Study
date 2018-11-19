@@ -2,27 +2,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorLover"
     tools:context=".chActivity"
-    android:gravity="center"
+    android:gravity="center_vertical"
     android:orientation="vertical" >
 
     <TextView
+        android:textColor="#FBFFFD"
         android:background="@drawable/shape"
+        android:id="@+id/text"
         android:text="please input phone num:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/edit"
-        android:layout_marginTop="50px"
-        android:hint="203699987"
-        android:singleLine="true"
-        android:padding="10px"
-        android:layout_width="fill_parent"
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:inputType="phone" />
-    <Button
-        android:id="@+id/submit"
-        android:text="提交"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/submit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector"
+            android:gravity="center"
+            android:padding="10px"
+            android:text="提交"
+            android:textColor="#FBFFFD" />
+
+        <Button
+            android:id="@+id/submit2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10px"
+            android:text="提交"
+            android:textColor="#FBFFFD" />
+
+        <Button
+            android:id="@+id/submit3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10px"
+            android:text="提交"
+            android:textColor="#FBFFFD" />
+    </LinearLayout>
 </RelativeLayout>
