@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">sms</string>
-    <string name="number">please input telNUM</string>
-    <string name="content">please input message text</string>
-    <string name="button">send</string>
-    <string name="sucess" >send sucessfully</string>
-</resources>
