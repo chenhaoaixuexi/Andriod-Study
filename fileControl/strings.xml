@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">fileControl</string>
+    <string name="filename">文件名字</string>
+    <string name="filecontent">文件内容</string>
+    <string name="button">保存</string>
+    <string name="success">保存完成</string>
+    <string name="failSDCard">保存失败</string>
+    <string name="fail">保存失败</string>
+    <string name="sdcarderror">SDCard不存在或者写保护</string>
+
+</resources>
